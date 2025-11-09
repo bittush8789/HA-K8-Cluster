@@ -187,5 +187,5 @@ By following these steps, you will have a highly available Kubernetes cluster wi
      curl -k https://<LOAD_BALANCER_IP>:6443/version
      ```
 
-### Summary
+## Summary
 By installing `etcdctl` and using it to check the health and membership of the etcd cluster, you can ensure that your HA setup is working correctly. Additionally, configuring HAProxy to route traffic properly and simulating master node failures will help verify the resilience and high availability of your Kubernetes cluster.
