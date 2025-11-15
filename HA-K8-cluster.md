@@ -8,7 +8,7 @@ To set up a highly available Kubernetes cluster with two master nodes and three 
 - 1 load balancer node
 - All nodes should be running a Linux distribution like Ubuntu 
 
-### Step 1: Prepare the Load Balancer Node
+## Step 1: Prepare the Load Balancer Node
 1. **Install HAProxy:**
    ```bash
    sudo apt-get update
